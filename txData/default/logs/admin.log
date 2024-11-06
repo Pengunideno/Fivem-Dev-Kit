@@ -1,0 +1,21 @@
+================================================================
+======== txAdmin v7.3.2 atop fxserver 10822 Starting - 11/6/2024, 1:16:22 PM
+================================================================
+[13:16:48][penguineodo] created admins file
+[13:17:09][penguineodo] Changing global settings via setup stepper and started Deployer.
+[13:17:20][penguineodo] Setting recipe.
+[13:18:28][penguineodo] Running recipe.
+[13:18:44][penguineodo] Changing global settings via setup stepper and started Deployer.
+[13:18:46][penguineodo] Setting recipe.
+[13:19:22][penguineodo] Running recipe.
+[13:20:16][penguineodo] Changing global settings via setup stepper and started Deployer.
+[13:20:17][penguineodo] Setting recipe.
+[13:20:29][penguineodo] Running recipe.
+[13:20:45][penguineodo] Changing global settings via setup stepper and started Deployer.
+[13:20:46][penguineodo] Setting recipe.
+[13:21:26][penguineodo] Running recipe.
+================================================================
+======== txAdmin v7.3.2 atop fxserver 10822 Starting - 11/6/2024, 1:23:57 PM
+================================================================
+[13:24:04][penguineodo] logged in from 127.0.0.1 via cfxre
+[13:24:34][penguineodo] Changing global/fxserver settings via setup stepper.
