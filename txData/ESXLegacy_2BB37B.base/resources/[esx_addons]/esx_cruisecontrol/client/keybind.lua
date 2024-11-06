@@ -20,12 +20,4 @@ if Config.Cruise.Enable then
     end)
 end
 
-if Config.Seatbelt.Enable then
-    ESX.RegisterInput('esx_cruisecontrol:ToggleSeatbelt', Translate('toggleSeatbelt'), "keyboard", Config.Seatbelt.Key, function()
-        if not Utils.vehicle then return end
-        SB.seatbelt = not SB.seatbelt
-        SB:SetState(SB.seatbelt)
-        ESX.ShowNotification(Translate(SB.seatbelt and 'seatbeltOn' or 'seatbeltOff', 5000, 'info'))
-    end)
-end
 

@@ -108,12 +108,6 @@ AddEventHandler('esx:playerLoaded',function(xPlayer, isNew, skin)
     Utils.ped = PlayerPedId()
 end)
 
-AddEventHandler('esx:enteredVehicle', function(vehicle, plate, seat, displayName, netId)
-    Utils.vehicle = vehicle
-    if not Config.Seatbelt.Enable then return end
-    SB:Thread()
-end)
-
 AddEventHandler('esx:exitedVehicle', function(vehicle, plate, seat, displayName, netId)
     Utils.vehicle = nil
 end)

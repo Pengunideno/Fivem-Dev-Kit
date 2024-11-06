@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'CruiseControl / Seatbelt System for ESX Legacy'
+description 'CruiseControl'
 
 version '1.2'
 legacyversion '1.9.5'
@@ -14,7 +14,6 @@ client_scripts {
   'locales/*.lua',
   'config.lua',
   'client/cruisecontrol.lua',
-  'client/seatbelt.lua',
   'client/utils.lua',
   'client/keybind.lua'
 }

@@ -4,9 +4,4 @@ Locales['zh-cn'] = {
   ['increaseSpeed'] = '已增加巡航最高限速',
   ['decreaseSpeed'] = '已减少巡航最高限速',
   ['cruiseControl'] = '巡航控制',
-
-  --Seatbelt
-  ['toggleSeatbelt'] = "Toggle Seatbelt",
-  ["seatbeltOn"] = "Seatbelt ON",
-  ["seatbeltOff"] = "Seatbelt OFF"
 }

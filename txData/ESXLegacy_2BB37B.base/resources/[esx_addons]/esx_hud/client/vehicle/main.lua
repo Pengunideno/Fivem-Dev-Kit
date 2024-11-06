@@ -1,18 +1,14 @@
 local cruiseControlStatus = false
 local isPassenger = false
-local isSeatbeltOn = false
 local p = promise:new()
 
 local function SetCruiseControlState(state)
     cruiseControlStatus = state
 end
 
-local function SetSeatbeltState(state)
-    isSeatbeltOn = state
-end
+
 
 exports("CruiseControlState", SetCruiseControlState)
-exports("SeatbeltState", SetSeatbeltState)
 
 if not Config.Disable.Vehicle then
     local vehicleType, playerPos
@@ -87,7 +83,6 @@ if not Config.Disable.Vehicle then
                 values.damage = engineHealth
                 values.vehType = vehicleType
                 values.driver = HUD.Data.Driver
-                values.defaultIndicators.seatbelt = isSeatbeltOn
                 values.defaultIndicators.tempomat = cruiseControlStatus
                 values.defaultIndicators.door = doorLockStatus
                 values.defaultIndicators.light = lightState

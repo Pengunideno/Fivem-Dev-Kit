@@ -4,9 +4,4 @@ Locales['sv'] = {
     ['increaseSpeed'] = 'Höj fart',
     ['decreaseSpeed'] = 'Sänk fart',
     ['cruiseControl'] = 'Farthållare',
-  
-    --Seatbelt
-    ['toggleSeatbelt'] = "Aktivera bälte",
-    ["seatbeltOn"] = "Säkerhetsbälte PÅ",
-    ["seatbeltOff"] = "Säkerhetsbälte AV"
   }

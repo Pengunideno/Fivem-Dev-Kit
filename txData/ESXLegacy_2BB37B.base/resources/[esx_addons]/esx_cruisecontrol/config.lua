@@ -7,14 +7,5 @@ Config = {
         Export = function (state)
             exports[Config.HudResource]:CruiseControlState(state)
         end,
-    },
-    Seatbelt = {
-        Enable = true,
-        Key = "B",
-        EjectCheckSpeed = 45, -- MPH
-        RagdollTime = 1, -- MS
-        Export = function (state)
-            exports[Config.HudResource]:SeatbeltState(state)
-        end
     }
 }
