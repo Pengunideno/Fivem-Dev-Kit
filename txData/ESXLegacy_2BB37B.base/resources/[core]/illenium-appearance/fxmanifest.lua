@@ -92,3 +92,5 @@ files {
 }
 
 ui_page "web/dist/index.html"
+
+provides { "esx_skin", "skinchanger" }

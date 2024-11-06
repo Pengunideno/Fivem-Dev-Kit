@@ -352,3 +352,10 @@ lib.addCommand("clearstuckprops", { help = _L("commands.clearstuckprops.title") 
 end)
 
 lib.versionCheck("iLLeniumStudios/illenium-appearance")
+
+RegisterCommand("skin", function(source, args, rawCommand)
+    if source then
+        TriggerClientEvent("esx_skin:openSaveableMenu", source)
+    end
+end, false)
+
