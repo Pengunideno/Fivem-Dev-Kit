@@ -1,0 +1,220 @@
+================================================================
+======== Log Rotated - 11/7/2024, 3:34:49 PM                    
+================================================================
+[             TXADMIN] ================================================================ 
+[             TXADMIN] ======== [13564] FXServer Starting - 11/7/2024, 3:35:03 PM       
+[             TXADMIN] ================================================================ 
+[           resources] Scanning resources.
+[           resources] Found 76 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.3.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_datastore
+[           resources] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[           resources] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[           resources] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[           resources] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[           resources] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[           resources] Started resource esx_ambulancejob
+[           resources] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_banking
+[           resources] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[           resources] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[           resources] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[           resources] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[           resources] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[           resources] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[           resources] Started resource esx_clotheshop
+[           resources] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[           resources] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[           resources] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[           resources] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[           resources] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_hud
+[           resources] Started resource esx_hud
+[    c-scripting-core] Creating script environments for esx_joblisting
+[           resources] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[           resources] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[           resources] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[           resources] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[           resources] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[           resources] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[           resources] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_property
+[           resources] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_rpchat
+[           resources] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[           resources] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[           resources] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[           resources] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[           resources] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[           resources] Started resource esx_weaponshop
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://forum.cfx.re/t/celebrating-one-year-with-rockstar-games/5269938#fivem-and-redm-6
+[      script:oxmysql] [11.5.2-MariaDB] Database server connection established!
+[  script:es_extended] [INFO] ESX Legacy 1.10.10 initialized!
+[      script:esx_hud] [INFO] esx_hud: You are using the latest version!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://penguineodo-679878.users.cfx.re/
+[ script:esx_property] [INFO] Added Property into datastore_data table
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[      script:hardcap] Connecting: Max
+[      script:esx_hud] [ERROR] esx_hud: Setup your custom fuel resource at: client/vehicle/fuel.lua
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[  script:es_extended] [INFO] Player "Max Peng" has connected to the server. ID: 1
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[         penguineodo] refresh 
+[           resources] Scanning resources.
+[resources:customScri] Warning: customScripts does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/76 resources.
+[           resources] 1 warning was encountered.
+[ citizen-server-impl] server thread hitch warning: timer interval of 625 milliseconds
+[         penguineodo] ensure healCmd 
+[ citizen-server-impl] Couldn't find resource healCmd.
+[         penguineodo] ensure customScripts 
+[ citizen-server-impl] Couldn't find resource customScripts.
+[         penguineodo] ensure healCmd 
+[ citizen-server-impl] Couldn't find resource healCmd.
+[         penguineodo] refresh 
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/76 resources.
+[         penguineodo] ensure healCmd 
+[ citizen-server-impl] Couldn't find resource healCmd.
+[         penguineodo] ensure customScripts 
+[    c-scripting-core] Creating script environments for customScripts
+[resources:customScri] Warning: could not find client_script `cl_h.lua` (defined in fxmanifest.lua:14)
+[resources:customScri] Warning: could not find server_script `sv_h.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource customScripts (2 warnings)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[         penguineodo] refresh 
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/76 resources.
+[         penguineodo] ensure healCmd 
+[    c-scripting-core] Creating script environments for healCmd
+[           resources] Started resource healCmd
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[         penguineodo] ensure healCmd 
+[           resources] Stopping resource healCmd
+[    c-scripting-core] Creating script environments for healCmd
+[           resources] Started resource healCmd
+[         penguineodo] ensure healCmd 
+[           resources] Stopping resource healCmd
+[    c-scripting-core] Creating script environments for healCmd
+[           resources] Started resource healCmd
+[         penguineodo] ensure healCmd 
+[           resources] Stopping resource healCmd
+[    c-scripting-core] Creating script environments for healCmd
+[           resources] Started resource healCmd
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[         penguineodo] ensure healCmd 
+[           resources] Stopping resource healCmd
+[    c-scripting-core] Creating script environments for healCmd
+[           resources] Started resource healCmd
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved player "Max Peng"
+[      script:hardcap] Connecting: Max
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[      script:esx_hud] [ERROR] esx_hud: Setup your custom fuel resource at: client/vehicle/fuel.lua
+[  script:es_extended] [INFO] Player "Max Peng" has connected to the server. ID: 2
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[         penguineodo] ensure healCmd 
+[           resources] Stopping resource healCmd
+[    c-scripting-core] Creating script environments for healCmd
+[   resources:healCmd] Warning: could not find server_script `sv_h.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource healCmd (1 warning)
+[         penguineodo] refresh 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 1/77 resources.
+[         penguineodo] ensure healCmd 
+[           resources] Stopping resource healCmd
+[    c-scripting-core] Creating script environments for healCmd
+[           resources] Started resource healCmd
+[  script:es_extended] [INFO] Saved player "Max Peng"
+[ citizen-server-impl] sync thread hitch warning: timer interval of 122 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[      script:hardcap] Connecting: Max
+[ citizen-server-impl] sync thread hitch warning: timer interval of 119 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 156 milliseconds
+[      script:esx_hud] [ERROR] esx_hud: Setup your custom fuel resource at: client/vehicle/fuel.lua
+[  script:es_extended] [INFO] Player "Max Peng" has connected to the server. ID: 3
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Operation timed out <- System.Net.Http.HttpRequestException: Operation timed out (97.102.109.109:30120)
+[  script:es_extended] [INFO] Saved player "Max Peng"

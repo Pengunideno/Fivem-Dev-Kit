@@ -17,7 +17,7 @@ end, false)
 if not Config.Disable.VehicleHandlers and not Config.Disable.Vehicle then
     local leftSignal, rightSignal = false, false
 
-    ESX.RegisterInput("esx_hud:indicator:left", Translate("indicatorLeft"), "keyboard", "NUMPAD4", function()
+    ESX.RegisterInput("esx_hud:indicator:left", Translate("indicatorLeft"), "keyboard", "LEFT", function()
         if not HUD.Data.Vehicle then
             return
         end
@@ -26,9 +26,14 @@ if not Config.Disable.VehicleHandlers and not Config.Disable.Vehicle then
         end
         leftSignal = not leftSignal
         SetVehicleIndicatorLights(HUD.Data.Vehicle, 1, leftSignal)
+
+        local isAttached, trailer = GetVehicleTrailerVehicle(HUD.Data.Vehicle)
+        if isAttached and DoesEntityExist(trailer) then
+            SetVehicleIndicatorLights(trailer, 1, leftSignal)
+        end
     end)
 
-    ESX.RegisterInput("esx_hud:indicator:right", Translate("indicatorRight"), "keyboard", "NUMPAD6", function()
+    ESX.RegisterInput("esx_hud:indicator:right", Translate("indicatorRight"), "keyboard", "RIGHT", function()
         if not HUD.Data.Vehicle then
             return
         end
@@ -37,6 +42,35 @@ if not Config.Disable.VehicleHandlers and not Config.Disable.Vehicle then
         end
         rightSignal = not rightSignal
         SetVehicleIndicatorLights(HUD.Data.Vehicle, 0, rightSignal)
+
+        local isAttached, trailer = GetVehicleTrailerVehicle(HUD.Data.Vehicle)
+        if isAttached and DoesEntityExist(trailer) then
+            SetVehicleIndicatorLights(trailer, 0, rightSignal)
+        end
+    end)
+
+    ESX.RegisterInput("esx_hud:indicator:Hazard", Translate("indicatorHazard"), "keyboard", "UP", function()
+        if not HUD.Data.Vehicle then
+            return
+        end
+        if HUD.Data.VehicleType == "AIR" then
+            return
+        end
+        if leftSignal ~= rightSignal then
+            leftSignal = true
+            rightSignal = true
+        else
+            leftSignal = not leftSignal
+            rightSignal = not rightSignal
+        end
+        SetVehicleIndicatorLights(HUD.Data.Vehicle, 0, rightSignal)
+        SetVehicleIndicatorLights(HUD.Data.Vehicle, 1, leftSignal)
+
+        local isAttached, trailer = GetVehicleTrailerVehicle(HUD.Data.Vehicle)
+        if isAttached and DoesEntityExist(trailer) then
+            SetVehicleIndicatorLights(trailer, 0, rightSignal)
+            SetVehicleIndicatorLights(trailer, 1, leftSignal)
+        end
     end)
 
     ESX.RegisterInput("esx_hud:toggleEngine", Translate("toggleEngine"), "keyboard", "N", function()
@@ -45,6 +79,6 @@ if not Config.Disable.VehicleHandlers and not Config.Disable.Vehicle then
         end
         local engineState = GetIsVehicleEngineRunning(HUD.Data.Vehicle)
         engineState = not engineState
-        SetVehicleEngineOn(HUD.Data.Vehicle, engineState, true, true)
+        SetVehicleEngineOn(HUD.Data.Vehicle, engineState, false, true)
     end)
 end
